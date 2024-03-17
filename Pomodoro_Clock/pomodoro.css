@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap'); */
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url("/Users/p.srilekha/Downloads/Mini Fun Projects/Pomodoro_Clock/background.jpeg") no-repeat;
+    background-size: cover;
+    color: #ffff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* to align the items in the middle of the page */
+    display: flex;
+    /* to align items vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* ends here */
+}
+
+.timer{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 5px;
+    letter-spacing: 5px;
+    /* to create a circle */
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; /* end */
+    border-color: seashell;
+    border-style: solid;
+    /* to align the items in the middle of the page */
+    display: grid;
+    place-items: center; /* ends here */
+}
+
+.container h1{
+    font-size: 25px;
+    margin: 15px 0 30px 0; /* top right bottom left */
+}
+
+.buttons{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffff;
+    box-shadow: 0px 3px 15px rgba(207, 212, 221, 0.5);
+    /* applying timer to transform so the transition would be slow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.buttons button:hover{
+    transform: scale(1.2); /* to hover the buttons */
+}
+
