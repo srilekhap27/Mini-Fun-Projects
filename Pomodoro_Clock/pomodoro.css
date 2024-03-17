@@ -73,3 +73,33 @@ body{
     transform: scale(1.2); /* to hover the buttons */
 }
 
+.pomoCountsDisplay{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    animation: swipe-up 1s ease-in;
+}
+
+.pomoCountsDisplay span{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.pomoCountsDisplay p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* animation */
+@keyframes swipe-up{
+    0%{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
