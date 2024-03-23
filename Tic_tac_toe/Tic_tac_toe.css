@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(37, 36, 36);
+    color: bisque;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.game-board{
+    display: grid;
+    /* To diaplay items in 3x3 colums by using repeat function*/
+    /* minmax function is used for giving proper width*/
+    grid-template-columns: repeat(3,minmax(110px, 1fr));
+}
+
+.cell{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3){
+    border-top: none;
+}
+
+.cell:nth-child(3n){
+/* .cell:nth-child(6),
+.cell:nth-child(9){ */
+    border-right: none;
+}
+
+.cell:nth-child(n+7){
+/* .cell:nth-child(8),
+.cell:nth-child(9){ */
+    border-bottom: none;
+}
+
+.cell:nth-child(3n+1){
+/* .cell:nth-child(4),
+.cell:nth-child(7){ */
+    border-left: none;
+}
+
+.game-players{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.player{
+    font-size: 30px;
+    margin-inline: 20px;
+    font-weight: 600;
+}
+
+.restartBtn{
+    border: 2px solid rgb(224, 215, 215);
+    background: transparent;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: beige;
+    margin-block: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.restartBtn:hover{
+    background: rgb(147, 144, 144);
+    transform: scale(1.2); /* to hover the buttons */
+}
+
+@media screen and (max-width:500px){
+    .container h1{
+        margin-bottom: 10px;
+        font-size: 20px;
+
+    }
+
+    .game-board{
+        grid-template-columns: repeat(3,minmax(90px, 1fr));
+    }
+    
+    .cell{
+        height: 90px;
+        font-size: 50px;
+    }
+}
