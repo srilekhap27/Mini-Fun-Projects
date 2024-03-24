@@ -1,8 +1,11 @@
-Calculator Demo:
-  https://srilekhap27.github.io/Mini-Fun-Projects/Calculator/calculator.html#calculator
+1. Calculator:
+  [Demo Link](https://srilekhap27.github.io/Mini-Fun-Projects/Calculator/calculator.html#calculator)
 
-Wanna Hear a Joke:
-  https://srilekhap27.github.io/Mini-Fun-Projects/Joke_Generator/joke.html#wanna_hear_a_joke
+2. Wanna Hear a Joke:
+  [Demo Link](https://srilekhap27.github.io/Mini-Fun-Projects/Joke_Generator/joke.html#wanna_hear_a_joke)
 
-Pomorodo Clock Demo:
-  https://srilekhap27.github.io/Mini-Fun-Projects/Pomodoro_Clock/pomodoro.html#Pomodoro
+3. Pomorodo Clock:
+  [Demo Link](https://srilekhap27.github.io/Mini-Fun-Projects/Pomodoro_Clock/pomodoro.html#Pomodoro)
+
+4. Tic Tac Toe Game:
+  [Demo Link](https://srilekhap27.github.io/Mini-Fun-Projects/Tic_tac_toe/Tic_tac_toe.html#Tic_tac_toe)
