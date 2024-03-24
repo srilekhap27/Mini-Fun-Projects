@@ -20,7 +20,7 @@ body{
 }
 
 .container h1{
-    margin-bottom: 25px;
+    margin: 20px 0 40px 0;
     text-decoration: underline;
 }
 
@@ -37,8 +37,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 500;
+    height: 120px;
     cursor: pointer;
 }
 
@@ -97,9 +98,27 @@ body{
     transform: scale(1.2); /* to hover the buttons */
 }
 
+.cell.disabled{
+    background: rgb(123, 120, 120);
+} 
+
+.alertBox{
+    /* to bring the alert at the top */
+    position: absolute;
+    top:0;
+    /* ends here */
+    background-color: bisque;
+    color: black;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    display: none;
+}
+
 @media screen and (max-width:500px){
     .container h1{
-        margin-bottom: 10px;
         font-size: 20px;
 
     }
