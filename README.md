@@ -11,3 +11,5 @@
   [Demo Link](https://srilekhap27.github.io/Mini-Fun-Projects/Tic_tac_toe/Tic_tac_toe.html#Tic_tac_toe)
 
 5. Weather App:
+
+6. Rock Paper and Scissor:
