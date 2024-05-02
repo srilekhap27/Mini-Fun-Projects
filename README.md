@@ -13,3 +13,5 @@
 5. Weather App:
 
 6. Rock Paper and Scissor:
+
+7. Currency Converter: 
