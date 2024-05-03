@@ -15,3 +15,5 @@
 6. Rock Paper and Scissor:
 
 7. Currency Converter: 
+
+8. Toss a Coin: 
