@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #C1EDCC;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 500px;
+}
+form{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    letter-spacing: 1.2px;   
+}
+
+label{
+    flex: 1;
+    border: 2px solid #555;
+    border-right-width: 0px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+input{
+    flex: 1;
+    outline: none;
+    border: 2px solid #555;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+/* to remove up and down arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#symbol{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    font-size: 17px;
+    font-weight: 600;
+    display: none;
+}
+
+#amountSaved, #finalPrice{
+    color: #0D3B66;
+    font-weight: 600;
+}
+
+#resetBtn{
+    text-align: center;
+}
+
+#reset{
+    background: transparent;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}

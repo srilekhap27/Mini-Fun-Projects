@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="discount.css">
+</head>
+<body>
+    <div class="container" id="discount_calculator">
+        <h1 class="title">Discount Calculator</h1>
+        <form action="">
+            <div class="form-group">
+                <label class="originalPrice">Original Price</label>
+                <input type="number" name="" placeholder="Enter a value" id="originalPrice">
+            </div>
+            <div class="form-group">
+                <label class="discount">Discount</label>
+                <input type="number" name="" id="discount">
+                <div id="symbol">%</div>
+            </div>
+            <div class="form-group">
+                <label class="amountSaved">Amount Saved</label>
+                <input type="text" name="" id="amountSaved" value="0">
+            </div>
+            <div class="form-group">
+                <label class="finalPrice">Final Price</label>
+                <input type="text" name="" id="finalPrice" value="0">
+            </div>
+            <div id="resetBtn">
+                <button type="reset" id="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="discount.js"></script>
+</body>
+</html>
