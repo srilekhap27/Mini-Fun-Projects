@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins, sans-serif';
+}
+
+body{
+    color: #fff;
+    background-color: #e9ff99;
+    background-image:
+        radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 9%, hsla(76, 65%, 63%, 1) 0px, transparent 50%);
+    min-height: 100vh;
+}
+
+.app{
+    padding: 30px;
+    color: black;
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+
+.app h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.quiz{
+    padding: 20px 0px;
+}
+
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn{
+    border: 1px solid #222;
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #7d7777;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    display: block; /* to center the button */
+    border: none;
+    background-color: #001e4d;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    width: 150px;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
